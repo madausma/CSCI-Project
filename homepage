@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+	<title>Project</title>
+	<style>
+	body {
+	    background-color: black;
+	}
+
+	h2 {
+	    background-color: yellow;
+	    color: red;
+	    font-family: Tahoma;
+	    margin-right: 1200px;
+	}
+
+	p {
+	    background-color: rgb(255,0,255);
+	}
+	a img {
+	            border: 3px solid blue;
+	        }
+
+	        #largeImage {
+	            position: absolute;
+	            padding: .5em;
+	            background: #e3e3e3;
+	            border: 1px solid #bfbfbf;
+        }
+
+	</style>
+</head>
+<body>
+<h2>Greetings, traveler. Click on any planet or celestial body to enter its orbit: </h2>
+<img src="planetmap.jpg" alt="planetmap" usemap=#planetmap style="height:800px; width:1300px;">
+<map name="planetmap">
+  <area shape="circle" coords="0,390,300" alt="Sun" href="sun.html">
+  <area shape="circle" coords="350,440,20" alt="Mercury" href="mercury.html">
+  <area shape="circle" coords="440,420,30" alt="Venus" href="venus.html">
+  <area shape="circle" coords="540,390,35" alt="Earth" href="earth.html">
+  <area shape="circle" coords="555,340,10" alt="Moon" href="moon.html">
+  <area shape="circle" coords="630,360,30" alt="Mars" href="mars.html">
+  <area shape="circle" coords="740,330,50" alt="Jupiter" href="jupiter.html">
+  <area shape="circle" coords="890,300,50" alt="Saturn" href="saturn.html">
+  <area shape="circle" coords="1040,270,40" alt="Uranus" href="uranus.html">
+  <area shape="circle" coords="1150,240,40" alt="Neptune" href="neptune.html">
+  <area shape="circle" coords="1220,200,15" alt="Pluto" href="pluto.html">
+</map>
+<script type="text/javascript">
+        $(function() {
+            var offsetX = 20;
+            var offsetY = 10;
+
+            $('a').hover(function(e) {
+                var href = $(this).attr('href');
+
+                var x = e.pageX - this.offsetLeft;
+                var y = e.pageY - this.offsetTop;
+
+                $('<div id="largeImage">' + 'X: ' + x + ' Y: ' + y + '</div>')
+                .css('top', e.pageY + offsetY)
+                .css('left', e.pageX + offsetX)
+                .appendTo('body');
+            }, function() {
+                $('#largeImage').remove();
+            });
+
+            $('a').mousemove(function(e) {
+                $('#largeImage')
+                .css('top', e.pageY + offsetY)
+                .css('left', e.pageX + offsetX);
+            });
+        });
+    </script>
+</body>
+</html>
