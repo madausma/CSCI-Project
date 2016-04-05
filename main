@@ -1,7 +1,67 @@
 <!DOCTYPE html>
 <head>
-   <title>Project</title>
+	<title>Project</title>
+	<style>
+	body {
+	    background-color: black;
+	}
+
+	h2 {
+	    background-color: yellow;
+	    color: red;
+	    font-family: Tahoma;
+	    margin-right: 1200px;
+	}
+
+	p {
+	    background-color: rgb(255,0,255);
+	}
+	a img {
+	            border: 3px solid blue;
+	        }
+
+	        #largeImage {
+	            position: absolute;
+	            padding: .5em;
+	            background: #e3e3e3;
+	            border: 1px solid #bfbfbf;
+        }
+
+	</style>
 </head>
 <body>
-   Test
+<h2>Greetings, traveler. Click on any planet to enter its orbit: </h2>
+<img src="planetmap.jpg" alt="planetmap" usemap=#planetmap style="height:800px; width:1300px;">
+<map name="planetmap">
+  <area shape="circle" coords="650,400,50,50" alt="Jupiter" href="jupiter.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+<script type="text/javascript">
+        $(function() {
+            var offsetX = 20;
+            var offsetY = 10;
+
+            $('a').hover(function(e) {
+                var href = $(this).attr('href');
+
+                var x = e.pageX - this.offsetLeft;
+                var y = e.pageY - this.offsetTop;
+
+                $('<div id="largeImage">' + 'X: ' + x + ' Y: ' + y + '</div>')
+                .css('top', e.pageY + offsetY)
+                .css('left', e.pageX + offsetX)
+                .appendTo('body');
+            }, function() {
+                $('#largeImage').remove();
+            });
+
+            $('a').mousemove(function(e) {
+                $('#largeImage')
+                .css('top', e.pageY + offsetY)
+                .css('left', e.pageX + offsetX);
+            });
+        });
+    </script>
 </body>
+</html>
