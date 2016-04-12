@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What's New on About.com Web Design / HTML</title>
+    <link>http://webdesign.about.com/library/weekly/mpreviss.htm</link>
+    <description>What are the latest articles from the Web Design / HTML site on About.com. Learn about web design, XML, and HTML with regular articles and topics of interest to web designers and web developers. These are the latest articles written for the site.</description>
+    <atom:link href="http://webdesign.about.com/library/z_whats_new.rss" rel="self" type="application/rss+xml" />
+
+
+<item>
+<title>Where Are the Readers Going?</title>
+<link>http://webdesign.about.com/od/analytics/fl/what-is-flow.htm</link>
+<pubDate>Sun, 01 Sep 2013 18:41:05 -0700</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/analytics/fl/what-is-flow.htm</guid>
+<description>Learn how to understand the web analytic report on visitor flow (sometimes called pathing). Analyze how readers are navigating through your site and find out what you can do with this information.</description>
+</item>
+<item>
+<title>The Pain of a Lapsed Domain</title>
+<link>http://webdesign.about.com/od/domains/fl/domain-lapsed.htm</link>
+<pubDate>Sun, 01 Sep 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/domains/fl/domain-lapsed.htm</guid>
+<description>What happens if you forget to renew your domain name? Is there any recourse? Learn about why you should not let your domain name lapse if you want to keep it.</description>
+</item>
+<item>
+<title>scan length</title>
+<link>http://webdesign.about.com/od/webdesignglossary/fl/scan-length.htm</link>
+<pubDate>Sat, 31 Aug 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/webdesignglossary/fl/scan-length.htm</guid>
+<description>Learn what the term scan length means in relation to web design. And learn how to affect the scan length of your web copy. </description>
+</item>
+<item>
+<title>Scan Length Examples</title>
+<link>http://webdesign.about.com/od/fonts/ss/scan-length-examples.htm</link>
+<pubDate>Sat, 31 Aug 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/fonts/ss/scan-length-examples.htm</guid>
+<description>Examples of scan length for the same block of text. One the length is too short, the second too long, and the third about right.</description>
+</item>
+<item>
+<title>How to Insert Tags with Bluefish</title>
+<link>http://webdesign.about.com/od/bluefish/ss/insert-tags-with-bluefish.htm</link>
+<pubDate>Thu, 15 Aug 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/bluefish/ss/insert-tags-with-bluefish.htm</guid>
+<description>Bluefish is a powerful text HTML editor for Linux, Windows, and Macintosh. And this tutorial by Jon Morin will teach you how to insert various tags into your web pages in Bluefish.</description>
+</item>
+<item>
+<title>Introduction To Bluefish</title>
+<link>http://webdesign.about.com/od/bluefish/ss/bluefish-introduction.htm</link>
+<pubDate>Thu, 08 Aug 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/bluefish/ss/bluefish-introduction.htm</guid>
+<description>Learn more about the Bluefish text HTML editor. This article by Jon Morin will help you get familiar with this powerful editor.</description>
+</item>
+<item>
+<title>Use WAI-ARIA to Make Your Website Accessible to People with Disabilities</title>
+<link>http://webdesign.about.com/od/accessibility/a/wai-aria.htm</link>
+<pubDate>Mon, 05 Aug 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/accessibility/a/wai-aria.htm</guid>
+<description>WAI-ARIA is a specification for writing accessible web pages and applications. This article explains what WAI-ARIA is and how you can get started using it.</description>
+</item>
+<item>
+<title>Data Points Book Review</title>
+<link>http://webdesign.about.com/od/books/fr/data-points-book-review.htm</link>
+<pubDate>Mon, 22 Jul 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/books/fr/data-points-book-review.htm</guid>
+<description>A review of a very pretty book on visualizing data. This book covers the basics of how you can create and explore data in a visual format.</description>
+</item>
+<item>
+<title>HTML for Kids: Building a Basic Web Page</title>
+<link>http://webdesign.about.com/od/htmlforkids/a/html-for-kids-building-a-basic-web-page.htm</link>
+<pubDate>Thu, 11 Jul 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/htmlforkids/a/html-for-kids-building-a-basic-web-page.htm</guid>
+<description>Here your kids will put all the skills they learned in the HTML for Kids articles together to create a complete web page. This article by Jon Morin helps children take their new HTML skills and put it all together into a web page.</description>
+</item>
+<item>
+<title>Breaking the Time Barrier Book Review</title>
+<link>http://webdesign.about.com/od/books/fr/breaking-the-time-barrier-review.htm</link>
+<pubDate>Mon, 17 Jun 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/books/fr/breaking-the-time-barrier-review.htm</guid>
+<description>Learn a better way of pricing your freelancing projects in this short book from the makers of FreshBooks.</description>
+</item>
+<item>
+<title>Using Patterns in the HTML5 Canvas</title>
+<link>http://webdesign.about.com/od/html5tutorials/a/patterns-on-canvas.htm</link>
+<pubDate>Sun, 16 Jun 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/html5tutorials/a/patterns-on-canvas.htm</guid>
+<description>Learn how to use images as patterns on the background of your CANVAS elements.</description>
+</item>
+<item>
+<title>Should You Add Slashes to the End of URLs</title>
+<link>http://webdesign.about.com/od/domains/a/to-slash-or-not-to-slash.htm</link>
+<pubDate>Thu, 6 Jun 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/domains/a/to-slash-or-not-to-slash.htm</guid>
+<description>Including the trailing slash at the end of a URL is one way to help speed up links on your site, but this seemingly minor issue gets many people upset. Find out why you might or might not include the trailing slash at the end of your URLs.</description>
+</item>
+<item>
+<title>Everything You Should Know about Domain Name Leasing and Seller Financing</title>
+<link>http://webdesign.about.com/od/domains/a/domain-leasing.htm</link>
+<pubDate>Mon, 3 Jun 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/domains/a/domain-leasing.htm</guid>
+<description>Domain leasing is a way to get access to high-quality premium domains without spending as much money. This article by Adam Paddock of GoForThe.com will help you learn more about domain leasing and how it works.</description>
+</item>
+<item>
+<title>Best Free Online Quiz Tools</title>
+<link>http://webdesign.about.com/od/content/a/best-free-online-quiz-tools.htm</link>
+<pubDate>Sun, 2 Jun 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/content/a/best-free-online-quiz-tools.htm</guid>
+<description>Quizzes can help get your customers excited to use your site, but they can be difficult to create by hand. These free tools will help you create quizzes on your blog or website. And best of all, they are free. </description>
+</item>
+<item>
+<title>The Modern Web Book Review</title>
+<link>http://webdesign.about.com/od/books/fr/the-modern-web-book-review.htm</link>
+<pubDate>Mon, 27 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/books/fr/the-modern-web-book-review.htm</guid>
+<description>This is a good book for intermediate web developers to learn the most modern HTML5, CSS3, and JavaScript techniques. Read my book review.</description>
+</item>
+<item>
+<title>Is the Web Design Industry Dead?</title>
+<link>http://webdesign.about.com/od/freelancing/a/is-the-web-design-industry-dead.htm</link>
+<pubDate>Mon, 13 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/freelancing/a/is-the-web-design-industry-dead.htm</guid>
+<description>It’s possible for any business owner to go out to a template website and buy a template for just a few dollars. So why should they want to hire you as a web designer? Find out what things web designers can offer customers that a template factory cannot.</description>
+</item>
+<item>
+<title>Online Quizzes - Pros and Cons</title>
+<link>http://webdesign.about.com/od/content/a/online-quizzes-pros-and-cons.htm</link>
+<pubDate>Mon, 6 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/content/a/online-quizzes-pros-and-cons.htm</guid>
+<description>Quizzes are a great way to generate interactivity on your website, but they can cause problems too. Before you go out and set up a ton of quizzes on your website, you should know what this can mean for your site.</description>
+</item>
+<item>
+<title>What Does “Native” Mean When Refering to Mobile Web Appliations</title>
+<link>http://webdesign.about.com/od/web20/g/native-definition.htm</link>
+<pubDate>Mon, 6 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/web20/g/native-definition.htm</guid>
+<description>One of the first things you need to learn when learning to build web applications is what the difference is between a web application and a native application. This article explains the definition of native when referring to mobile web applications.</description>
+</item>
+<item>
+<title>HTML for Kids: Adding Tables</title>
+<link>http://webdesign.about.com/od/htmlforkids/a/html-for-kids-tables.htm</link>
+<pubDate>Sun, 5 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/htmlforkids/a/html-for-kids-tables.htm</guid>
+<description>This is a tutorial to help kids learn HTML. This article teaches kids how to create tables to present information more effectively. </description>
+</item>
+<item>
+<title>HTML for Kids: Adding Lists</title>
+<link>http://webdesign.about.com/od/htmlforkids/a/html-for-kids-lists.htm</link>
+<pubDate>Sun, 5 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/htmlforkids/a/html-for-kids-lists.htm</guid>
+<description>This is a tutorial to help kids learn HTML. This page discusses how to create ordered, unordered, and definition lists on web pages. </description>
+</item>
+<item>
+<title>HTML for Kids: All About Tags</title>
+<link>http://webdesign.about.com/od/htmlforkids/a/html-for-kids-tags.htm</link>
+<pubDate>Wed, 01 May 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/htmlforkids/a/html-for-kids-tags.htm</guid>
+<description>This is a tutorial for kids to learn HTML. On this page you’ll learn all about HTML tags and HTML elements and how to make your content stand out on a web page. </description>
+</item>
+<item>
+<title>HTML For Kids: The Tools and Rules of HTML</title>
+<link>http://webdesign.about.com/od/htmlforkids/a/html-for-kids-tools.htm</link>
+<pubDate>Sun, 21 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/htmlforkids/a/html-for-kids-tools.htm</guid>
+<description>After your kids understand the basics of HTML, they should get a tool to write it. This article by Jon Morin will help kids find some free tools to write HTML and get started actually writing it.</description>
+</item>
+<item>
+<title>HTML for Kids: The Basics</title>
+<link>http://webdesign.about.com/od/htmlforkids/a/html-for-kids-basics.htm</link>
+<pubDate>Fri, 19 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/htmlforkids/a/html-for-kids-basics.htm</guid>
+<description>This is part of a series of articles designed to teach kids how to build web pages. The first place kids should start when learning to build web pages is with HTML. This article will help kids learn what HTML is and get them ready to use it.</description>
+</item>
+<item>
+<title>SeaMonkey Version 2.17 Review </title>
+<link>http://webdesign.about.com/od/freewebeditors/fr/seamonkey-2_17-review.htm</link>
+<pubDate>Mon, 15 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/freewebeditors/fr/seamonkey-2_17-review.htm</guid>
+<description>SeaMonkey is more than just a web editor, it is also a web browser and an email client and an IRC chat client. Because it is all these things, it isn’t the best web editor out there, but it does do the job if you’re trying to do things quickly.</description>
+</item>
+<item>
+<title>How to Use Adobe Illustrator SVG in Your HTML</title>
+<link>http://webdesign.about.com/od/svg/ss/save-ai-as-svg-and-add-to-html.htm</link>
+<pubDate>Sun, 14 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/svg/ss/save-ai-as-svg-and-add-to-html.htm</guid>
+<description>You can draw vector images in Adobe Illustrator and then embed them directly in your HTML without even uploading an image. This tutorial shows you how to add SVG code created in Illustrator to your HTML.</description>
+</item>
+<item>
+<title>Head First Web Design Book Review</title>
+<link>http://webdesign.about.com/od/books/fr/head-first-web-design-book-review.htm</link>
+<pubDate>Mon, 8 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/books/fr/head-first-web-design-book-review.htm</guid>
+<description>This is a fun book that web designers who need more help with becoming a professional web designer and freelancer.</description>
+</item>
+<item>
+<title>Web Design Freelancers Need a Good Work Ethic</title>
+<link>http://webdesign.about.com/od/freelancing/a/freelancers-work-ethic.htm</link>
+<pubDate>Sun, 7 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/freelancing/a/freelancers-work-ethic.htm</guid>
+<description>Many freelancers blame their lack of work on everything but themselves. This article examines some of the reasons freelancers might be sabotaging their work.</description>
+</item>
+<item>
+<title>How To Create A Hyperlink With KompoZer</title>
+<link>http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-create-a-hyperlink-with-kompozer.htm</link>
+<pubDate>Fri, 5 Apr 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-create-a-hyperlink-with-kompozer.htm</guid>
+<description>Learn how to create four different types of links inside KompoZer. In this tutorial by Jon Morin you will learn how to create text links, anchors, in-page links, and image links using the WYSIWYG editor KompoZer.</description>
+</item>
+<item>
+<title>How to Add CSS Styles with KompoZer</title>
+<link>http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-add-css-with-kompozer.htm</link>
+<pubDate>Tue, 26 Mar 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-add-css-with-kompozer.htm</guid>
+<description>KompoZer is a WYSIWYG HTML editor that helps you write both HTML and CSS web pages. This tutorial by Jon Morin will show you how to add CSS styles to your web pages.</description>
+</item>
+<item>
+<title>How to Add a Form with KompoZer</title>
+<link>http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-add-a-form-with-kompozer.htm</link>
+<pubDate>Mon, 18 Mar 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-add-a-form-with-kompozer.htm</guid>
+<description>Kompozer makes it easy to add web forms to your web pages. This step-by-step tutorial will take you through the steps to create a web form.</description>
+</item>
+<item>
+<title>How to Add a Table with KompoZer</title>
+<link>http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-add-a-table-with-kompozer.htm</link>
+<pubDate>Sun, 17 Mar 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-add-a-table-with-kompozer.htm</guid>
+<description>HTML tables are a useful way to display tabular data, and it's easy to create tables in KompoZer. Read this article by Jon Morin to learn how.</description>
+</item>
+<item>
+<title>Using the HTML5 Custom Data Attributes (data-*)</title>
+<link>http://webdesign.about.com/od/html5tutorials/a/using-custom-data.htm</link>
+<pubDate>Sun, 03 Mar 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/html5tutorials/a/using-custom-data.htm</guid>
+<description>One of the more useful new features of HTML5 is the custom data attribute. This allows you to store data custom to your page and website right in the HTML. And then you can read and modify that data with JavaScript. This article shows you how to use the custom data attributes (data-* attributes).</description>
+</item>
+<item>
+<title>How to Markup Your Contact Information with VCard Microformats</title>
+<link>http://webdesign.about.com/od/microdata/a/add-vcard-info-with-mircroformats.htm</link>
+<pubDate>Fri, 01 Mar 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/microdata/a/add-vcard-info-with-mircroformats.htm</guid>
+<description>Learn how easy it is to use microformats in your web pages by embedding a vCard into your contact page. This article will take you step-by-step through how to add vCard microformats to your contact page.</description>
+</item>
+<item>
+<title>Introduction to KompoZer</title>
+<link>http://webdesign.about.com/od/kompozernvuhowtos/ss/intro-to-kompozer.htm</link>
+<pubDate>Tue, 19 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/kompozernvuhowtos/ss/intro-to-kompozer.htm</guid>
+<description>Learn how to build a new website in KompoZer. By Jon Morin</description>
+</item>
+<item>
+<title>Why Use Design Patterns</title>
+<link>http://webdesign.about.com/od/usability/a/why-use-design-patterns.htm</link>
+<pubDate>Fri, 15 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/usability/a/why-use-design-patterns.htm</guid>
+<description>Once you start understanding how useful design patterns are it can be tempting to use them for everything. But as with all technology moderation is more effective than over-doing it. This article explains why to use design patterns and when to use them.</description>
+</item>
+<item>
+<title>File Sizes for Kindle Books</title>
+<link>http://webdesign.about.com/od/mobi/a/kindle-file-sizes.htm</link>
+<pubDate>Mon, 11 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/mobi/a/kindle-file-sizes.htm</guid>
+<description>One of the more confusing aspects of building Kindle ebooks is the file sizes. You will find conflicting information all over the net about how big your cover images should be, how big your images should be, even the cover image has dozens of different sizes reported. In this article you'll learn what Amazon says about file sizes, recommendations for images, and cover image file sizes.</description>
+</item>
+<item>
+<title>The WordPress Anthology</title>
+<link>http://webdesign.about.com/od/books/fr/wordpress-anthology-review.htm</link>
+<pubDate>Fri, 08 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/books/fr/wordpress-anthology-review.htm</guid>
+<description>This is a book about a lot of the under-the-covers aspects of WordPress. If you're interested in more than just posting your blog entries and want to really customize your WordPress website this is a good book to check out. Read my full review.</description>
+</item>
+<item>
+<title>How to Format Text with KompoZer</title>
+<link>http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-format-text-with-kompozer.htm</link>
+<pubDate>Tue, 05 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/kompozernvuhowtos/ss/how-to-format-text-with-kompozer.htm</guid>
+<description>This tutorial teaches you how to format text in the free HTML editor: KompoZer.</description>
+</item>
+<item>
+<title>The PC is Not a Typewriter Book Review</title>
+<link>http://webdesign.about.com/od/books/fr/pc-is-not-a-typewriter.htm</link>
+<pubDate>Fri, 01 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/books/fr/pc-is-not-a-typewriter.htm</guid>
+<description>This is a review of a book that has been out for over twenty years. But it is still as relevant now as it was in the 90s when it first came out.</description>
+</item>
+<item>
+<title>How Many Links is Too Many for One Page?</title>
+<link>http://webdesign.about.com/od/beginningtutorials/a/maximum-links-per-page.htm</link>
+<pubDate>Fri, 01 Feb 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/beginningtutorials/a/maximum-links-per-page.htm</guid>
+<description>When you have a lot of web pages and articles it can be very tempting to add links to them when ever you write other documents. But too many links on any given page can make your pages look spammy and annoy your readers. And things that annoy readers often result in lower seo rankings as well. Learn how many links to include on a web page.</description>
+</item>
+<item>
+<title>Kindle Cover Images</title>
+<link>http://webdesign.about.com/od/mobi/a/kindle-cover-images.htm</link>
+<pubDate>Sun, 20 Jan 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/mobi/a/kindle-cover-images.htm</guid>
+<description>Even if your book is 100% text with no images, there is one image you should always have—the cover image. This image is used to market your book, and books that don't have cover image don't sell well, or really at all. Learn how to add a cover image and some of the important aspects of your cover image.</description>
+</item>
+<item>
+<title>Textastic Profile</title>
+<link>http://webdesign.about.com/od/ipadapps/fr/textastic-profile.htm</link>
+<pubDate>Sun, 13 Jan 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/ipadapps/fr/textastic-profile.htm</guid>
+<description>Textastic and Textastic Code Editor for iPhone are mobile text editors for iPad and iPhone that you can use to edit HTML, PHP, CSS, JavaScript and other code.</description>
+</item>
+<item>
+<title>How to Include Images in Kindle Books</title>
+<link>http://webdesign.about.com/od/mobi/a/including-images-in-kindle-books.htm</link>
+<pubDate>Wed, 09 Jan 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/mobi/a/including-images-in-kindle-books.htm</guid>
+<description>Once you have your images in your HTML file for your ebook, you can still end up with broken images inside your book if you don't upload them to the Kindle Direct Publishing system correctly. Learn how to make sure your images show up in your book.</description>
+</item>
+<item>
+<title>Sauce Review</title>
+<link>http://webdesign.about.com/od/browseremulators/fr/sauce-review-2013.htm</link>
+<pubDate>Mon, 07 Jan 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/browseremulators/fr/sauce-review-2013.htm</guid>
+<description>Sauce is a tool to help you test your web and mobile applications on various systems including Windows, Macintosh, Linux, iOS, and Android. There is a free version, a desktop app for Mac users (and one in beta for Windows) as well as online browser access.</description>
+</item>
+<item>
+<title>Using Images in Kindle Books</title>
+<link>http://webdesign.about.com/od/mobi/a/using-images-in-kindle-books.htm</link>
+<pubDate>Sat, 05 Jan 2013 10:12:10 -0800</pubDate>
+<guid isPermaLink="true">http://webdesign.about.com/od/mobi/a/using-images-in-kindle-books.htm</guid>
+<description>Images are a nice way to dress up ebooks, but many ebook authors don't use them because they can be difficult to add or slow the download time of the books. In this article you'll learn some of the rules for creating great images for ebooks.</description>
+</item>
+
+  </channel>
+</rss>
