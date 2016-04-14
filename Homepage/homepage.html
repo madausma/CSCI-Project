@@ -1,58 +1,170 @@
 <!DOCTYPE html>
 <head>
-	<title>Project</title>
-	<style>
-	body {
-	    background-color: black;
-	}
+	<title>Welcome!</title>
+	<!--Meta viewport: for iPhone width compatibility-->
+	<meta name = "viewport" content = "width = device-width">
+	<meta name = "viewport" content = "width = 320">
 
-	h2 {
-	    background-color: black;
-	    color: red;
-	    font-family: Tahoma;
-	    margin-right: 1200px;
-	}
+<!--Should be replaced with bootstrap or other css styling tool!
 
-	p {//background-color: rgb(255,0,255);
-	    color: white;
-	    text-indent: 30px;}
-	a img {
-	            //border: 3px solid blue;
-	        }
+<style>
 
-	        #largeImage {
-	            position: absolute;
-	            padding: .5em;
-	            background: #e3e3e3;
-	            border: 1px solid #bfbfbf;
-        }
+body {background-color: black;
+	  max-width: 500px;}
 
-	</style>
+h1 {color: white;
+	font-family: sans-serif;}
+
+h4 {color: white;
+	font-family: sans-serif;}
+
+h2 {background-color: black;
+	color: red;
+	font-family: sans-serif;
+	margin-right: 120px;}
+
+p {background-color: rgb(255,0,255);
+   color: white;
+   text-indent: 30px;}
+
+a img {border: 3px solid blue;}
+
+#largeImage { position: absolute;
+	          padding: .5em;
+	          background: #e3e3e3;
+	          border: 1px solid #bfbfbf;}
+
+#header {background color: white;
+         color: black;
+         text-align: center;
+     	 padding: 5px;}
+
+#rssheader {text-transform: uppercase;
+			font-family: sans-serif;}
+
+fieldset {background: #CCF;
+    	  border: thin solid #333;
+	      margin-left: 2px;
+	      margin-right: 2px;
+	      padding-top: 0.35em;
+	      padding-bottom: 0.625em;
+	  	  padding-left: 0.75em;
+	      padding-right: 0.75em;
+
+#legend {
+	     text-transform: uppercase;
+	     color: blue;}
+</style>
+-->
 </head>
 <body>
-<ul>
-  <li><a href="http://cscilab.bc.edu/~madausma/project/project.html">
-  		<img src="homebutton.png" alt="Home button"></a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
-<h2>Greetings, traveler. Click on any planet or celestial body to enter its orbit: </h2>
-<marquee behavior="scroll" direction="right"><h2>...click on a planet already lol</h2></marquee>
-<img src="planetmap.jpg" alt="planetmap" usemap=#planetmap style="height:800px; width:1300px;">
-<map name="planetmap">
+	<h1>Greetings, traveler. Click on any planet or celestial body to enter its orbit: </h1>
+	<marquee behavior="scroll" direction="right"><h4>Login or register if you haven't yet!</h4></marquee>
+	<img src="planetmaplabeled.jpg" alt="planetmap" usemap=#planetmap style="height:800px; width:1300px;">
+	<map name="planetmap">
   <area shape="circle" coords="0,390,300" alt="Sun" href="sun/sun.html">
-  <area shape="circle" coords="350,440,20" alt="Mercury" href="mercury.html">
-  <area shape="circle" coords="440,420,30" alt="Venus" href="venus.html">
-  <area shape="circle" coords="540,390,35" alt="Earth" href="earth.html">
-  <area shape="circle" coords="555,340,10" alt="Moon" href="moon.html">
-  <area shape="circle" coords="630,360,30" alt="Mars" href="mars.html">
-  <area shape="circle" coords="740,330,50" alt="Jupiter" href="jupiter.html">
-  <area shape="circle" coords="890,300,50" alt="Saturn" href="saturn.html">
-  <area shape="circle" coords="1040,270,40" alt="Uranus" href="uranus.html">
-  <area shape="circle" coords="1150,240,40" alt="Neptune" href="neptune.html">
-  <area shape="circle" coords="1220,200,15" alt="Pluto" href="pluto.html">
+  <area shape="circle" coords="350,440,20" alt="Mercury" href="mercury/mercury.html">
+  <area shape="circle" coords="440,420,30" alt="Venus" href="venus/venus.html">
+  <area shape="circle" coords="540,390,35" alt="Earth" href="earth/earth.html">
+  <area shape="circle" coords="555,340,10" alt="Moon" href="moon/moon.html">
+  <area shape="circle" coords="630,360,30" alt="Mars" href="mars/mars.html">
+  <area shape="circle" coords="740,330,50" alt="Jupiter" href="jupiter/jupiter.html">
+  <area shape="circle" coords="890,300,50" alt="Saturn" href="saturn/saturn.html">
+  <area shape="circle" coords="1040,270,40" alt="Uranus" href="uranus/uranus.html">
+  <area shape="circle" coords="1150,240,40" alt="Neptune" href="neptune/neptune.html">
+  <area shape="circle" coords="1220,200,15" alt="Pluto" href="pluto/pluto.html">
 </map>
-<p>RSS Feeds and Related Links</p>
+
+<form>
+	<fieldset>
+		<legend>RSS feeds from NASA!</legend>
+
+			<?php
+			  $feeds = array(
+							  'http://www.nasa.gov/rss/dyn/image_of_the_day.rss',
+							  'https://www.nasa.gov/rss/dyn/breaking_news.rss',
+							  'https://www.nasa.gov/rss/dyn/educationnews.rss',
+							  'http://blogs.nasa.gov/stationreport/feed/',
+							  'http://blogs.nasa.gov/stationreport/feed/',
+							  'https://www.nasa.gov/rss/dyn/onthestation_rss.rss',
+							  'https://www.nasa.gov/rss/dyn/mission_pages/kepler/news/kepler-newsandfeatures-RSS.rss',
+							  'http://www.nasa.gov/rss/dyn/chandra_images.rss',
+							  'https://www.nasa.gov/rss/dyn/shuttle_station.rss',
+							  'https://www.nasa.gov/rss/dyn/solar_system.rss',
+							  'https://www.nasa.gov/rss/dyn/earth.rss',
+							  'https://www.nasa.gov/rss/dyn/aeronautics.rss',
+							  'https://www.nasa.gov/rss/dyn/hurricaneupdate.rss'
+							);
+			  ?>
+			  <?php
+			  create_form($feeds, "feed");
+
+			  if ( isset( $_GET['getfeed'] ) ) {
+			  	handle_form( $_GET['feed'] );
+			  }
+
+			  ?>
+
+			<?php
+			function handle_form( $myfeed ) {
+				  $rss = simplexml_load_file( $myfeed );
+
+			      $title =  $rss->channel->title;
+			      echo "<h1>$title</h1>";
+			      $items = $rss->channel->item;
+			      if (!$items)
+			        $items = $rss->item;
+			      foreach ( $items as $item ) {
+			      	echo "<div class='news'>
+			      			<h4>$item->title<h4>\n";
+			        echo '<a href="' . $item->link . '">' . $item->title . '</a><br>';
+			        echo $item->description . "<br><br>\n";
+			        echo "</div>";
+			      }
+			}
+			function create_form( $farray, $menuname ){
+			?>
+			<form method="get">
+				<?php create_menu( $farray, $menuname ); ?>
+				<input type="submit" name="getfeed" value="Get Feed!" >
+			</form>
+			<?php
+			}
+			function create_menu($farray, $menuname){
+				$current_feed = isset( $_GET['feed'] ) ?  $_GET['feed'] : "";
+				echo "<select name='$menuname'>";
+				foreach ( $farray as $f ) {
+					if ( $current_feed == $f )  {
+						echo "<option value='$f' selected>$f</option>";
+					} else {
+						echo "<option value='$f'>$f</option>";
+					}
+				}
+				echo '</select>';
+			}
+			?>
+	</fieldset>
+	<br>
+	<br>
+	<fieldset>
+		<legend>Podcasts and Vodcasts from NASA</legend>
+
+		<a href= "https://itunes.apple.com/us/podcast/nasacast-video/id201661703?mt=2">
+			<p>NASACast Video</p><img src="http://www.nasa.gov/images/content/173608main_subscribe_pod-2.gif"></a>
+		<a href= "https://www.nasa.gov/multimedia/videogallery/index.html">
+			<p>NASA's Video Gallery</p><img src="http://www.nasa.gov/images/content/173608main_subscribe_pod-2.gif"></a>
+	</fieldset>
+	<br>
+	<br>
+	<fieldset>
+		<legend>About the Site</legend>
+			<p>One of our developers was disappointed that he couldn't create a custom 404 page
+			   due to cscilab.bc.edu's server permissions.<br>
+			   Click <a href ="404.html">here</a> if you'd like to see the cool 404 page:
+
+			   ...and click here if you'd like to see the boring default 404 :(
+		   </p>
+	</fieldset>
+
 </body>
 </html>
