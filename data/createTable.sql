@@ -44,8 +44,4 @@ Create table QuizGrade(
 
 /*Select Grade From QuizGrade Where Questions/QuestionsRight > 0;*/ 
 
-/*
- * Author:  Victor
- * Created: Apr 23, 2016
- */
 
