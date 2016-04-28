@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	    <title>Welcome!</title>
+	    <title>8p[anets™</title>
 	    <!-- Bootstrap -->
 	    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -15,9 +15,15 @@
 	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
+
+
+
 </head>
 <style>
-<!--Login form css-->
+<!--Login form css
 input:required {
 	border: 3px solid red;
 }
@@ -72,51 +78,34 @@ label {
     margin-top: 15px;
     border-radius: 3px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+
+<!--Jumbotron css-->
+.jumbotron {
+    position: relative;
+    background: #000 url("blacksun.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;}
+
+<!--Sidebar css-->
+#sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+
+
 </style>
-<!--Alternate css format (Marcus Madaus) w/o Bootstrap:
-
-body {background-color: black;
-	  max-width: 500px;}
-
-h1 {color: white;
-	font-family: sans-serif;}
-
-h4 {color: white;
-	font-family: sans-serif;}
-
-h2 {background-color: black;
-	color: red;
-	font-family: sans-serif;
-	margin-right: 120px;}
-
-p {background-color: rgb(255,0,255);
-   color: white;
-   text-indent: 30px;}
-
-a img {border: 3px solid blue;}
-
-#largeImage { position: absolute;
-	          padding: .5em;
-	          background: #e3e3e3;
-	          border: 1px solid #bfbfbf;}
-
-#rssheader {text-transform: uppercase;
-			font-family: sans-serif;}
-
-fieldset {background: #CCF;
-    	  border: thin solid #333;
-	      margin-left: 2px;
-	      margin-right: 2px;
-	      padding-top: 0.35em;
-	      padding-bottom: 0.625em;
-	  	  padding-left: 0.75em;
-	      padding-right: 0.75em;
-
-#legend {
-	     text-transform: uppercase;
-	     color: blue;}
--->
+</head>
 <body>
+
 <!--Navbar/menu-->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
@@ -182,16 +171,11 @@ fieldset {background: #CCF;
 			</div>
 		</div>
 </div>
-<br>
-<br>
-<br>
-<!--Alert divs (I have not implemented or hidden them yet - Marcus)-->
-<div class="alert alert-success">
-  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  <strong>Success!</strong> Indicates a successful or positive action.
-</div>
 
-<div class="alert alert-info">
+<!--Alert divs (I have not implemented them yet - Marcus)-->
+
+
+<!--<div class="alert alert-info">
   <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
   <strong>Info!</strong> Indicates a neutral informative change or action.
 </div>
@@ -204,11 +188,64 @@ fieldset {background: #CCF;
 <div class="alert alert-danger">
   <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
   <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
-</div>
+</div>-->
 
 <!--Login form-->
-	<marquee behavior="scroll" direction="right"><h4>Login or register!</h4></marquee>
-	<!--Code for login below-->
+<br>
+<br>
+<br>
+<!--Div before jumbotron-->
+<div class="container">
+			<div id="message" class="alert alert-success fade in" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="close">&times;</button>
+	 			 	<marquee behavior="scroll" direction="left" scrollamount="10">
+	 		 		<strong>Hello.</strong> Is this your first time here?
+	 		 		Click <a href="http://cscilab.bc.edu/~madausma/project/homepage/register.php" class="alert-link">here</a>
+	 		 		to register.<br></marquee>
+			</div>
+
+
+
+<!--Jumbotron-->
+
+   <div class="jumbotron">
+     <h1><small>8</small>p[anets<small>™</small></h1>
+     <p>because astronomy doesn't have to be boring.</p>
+   </div>
+   <div class="row">
+     <div class="col-sm-4">
+		<!--Image map-->
+       <h3>THE SOLAR MAP</h3>
+       <p>select any celestial body to enter its orbit.</p>
+       <img src="planetmaplabeled.jpg" alt="planetmap" usemap=#planetmap style="height:800px; width:1300px;">
+	   	<map name="planetmap">
+	     <area shape="circle" coords="0,390,300" alt="Sun" href="sun/sun.html">
+	     <area shape="circle" coords="350,440,20" alt="Mercury" href="mercury/mercury.html">
+	     <area shape="circle" coords="440,420,30" alt="Venus" href="venus/venus.html">
+	     <area shape="circle" coords="540,390,35" alt="Earth" href="earth/earth.html">
+	     <area shape="circle" coords="555,340,10" alt="Moon" href="moon/moon.html">
+	     <area shape="circle" coords="630,360,30" alt="Mars" href="mars/mars.html">
+	     <area shape="circle" coords="740,330,50" alt="Jupiter" href="jupiter/jupiter.html">
+	     <area shape="circle" coords="890,300,50" alt="Saturn" href="saturn/saturn.html">
+	     <area shape="circle" coords="1040,270,40" alt="Uranus" href="uranus/uranus.html">
+	     <area shape="circle" coords="1150,240,40" alt="Neptune" href="neptune/neptune.html">
+	     <area shape="circle" coords="1220,200,15" alt="Pluto" href="pluto/pluto.html">
+		</map>
+		<!--Blank paragraph below is so that the content below doesn't overlap with the image map-->
+		<p></p>
+     </div>
+     <div class="col-sm-4">
+       <h3>THE BUZZ</h3>
+       <p>we have the hottest new information on the solar system.</p>
+     </div>
+     <div class="col-sm-4">
+       <h3>THE TEST</h3>
+		<p>think you know your stuff? check out our <a href ="quizzes.html">planet quizzes.</a></p>
+     </div>
+	<div>
+<div>
+<!--Code for login below-->
+<header>
 	<section class="loginform cf">
 			<form name="login" action="index_submit" method="get" accept-charset="utf-8">
 
@@ -237,24 +274,7 @@ fieldset {background: #CCF;
 				</ul>
 			</form>
 		</section>
-
-<!--Header and image map-->
-<h1>Greetings, traveler. Click on any planet or celestial body to enter its orbit: </h1>
-	<img src="planetmaplabeled.jpg" alt="planetmap" usemap=#planetmap style="height:800px; width:1300px;">
-	<map name="planetmap">
-  <area shape="circle" coords="0,390,300" alt="Sun" href="sun/sun.html">
-  <area shape="circle" coords="350,440,20" alt="Mercury" href="mercury/mercury.html">
-  <area shape="circle" coords="440,420,30" alt="Venus" href="venus/venus.html">
-  <area shape="circle" coords="540,390,35" alt="Earth" href="earth/earth.html">
-  <area shape="circle" coords="555,340,10" alt="Moon" href="moon/moon.html">
-  <area shape="circle" coords="630,360,30" alt="Mars" href="mars/mars.html">
-  <area shape="circle" coords="740,330,50" alt="Jupiter" href="jupiter/jupiter.html">
-  <area shape="circle" coords="890,300,50" alt="Saturn" href="saturn/saturn.html">
-  <area shape="circle" coords="1040,270,40" alt="Uranus" href="uranus/uranus.html">
-  <area shape="circle" coords="1150,240,40" alt="Neptune" href="neptune/neptune.html">
-  <area shape="circle" coords="1220,200,15" alt="Pluto" href="pluto/pluto.html">
-</map>
-
+</header>
 <!--Rss Feeds-->
 <form>
 	<fieldset>
@@ -338,17 +358,6 @@ fieldset {background: #CCF;
 	</fieldset>
 	<br>
 	<br>
-	<fieldset>
-		<legend>About the Site</legend>
-			<p>One of our developers was disappointed that he couldn't create a custom 404 page
-			   due to cscilab.bc.edu's server permissions.<br>
-			   Click <a href ="404.html">here</a> if you'd like to see the cool 404 page:
-				<br>
-			   ...and click <a href ="defaultboring404.html">here</a> if you'd like to see the boring default 404 :(
-			   <!--defaultboring404.html is just a 404 -->
-		   </p>
-	</fieldset>
-
 	<br>
 	<br>
 	<hr>
@@ -360,14 +369,30 @@ fieldset {background: #CCF;
 	}
 	displayForm();
 ?>
+</div>
+<br>
+<br>
+<!--Fieldset containing basic homepage info-->
+<fieldset>
+		<legend>About 8p[anets<small>™</small></legend>
+			<p>8planets<small>™</small> was developed by Marcus M., Sam D., and Victor M.<br>
+			   Support for 8planets comes from viewers like you.</p>
+	</fieldset>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--Scrolling space shuttle-->
+<marquee behavior="scroll" direction="left" scrollamount="20"><img src = "https://pixabay.com/static/uploads/photo/2013/07/13/09/47/space-shuttle-156012_960_720.png" height="40px" ></img></marquee>
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    </div>
 </body>
 </html>
-<!--Code below may not be used. Just for testing-->
+
+<!--Code below for simple server to user communication-->
 <?php
 function handleform(){
 	$name      = isset( $_GET['username'] )   ?   $_GET['username'] : "";
