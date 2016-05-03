@@ -24,14 +24,13 @@ $value4 = $_POST['phone'];
 $value5 = $_POST['address'];
 $value6 = $_POST['dob'];
 $value7 = $_POST['email'];
+$value8 = hash('sha512', $_POST['password']);
 
-$sql = "INSERT INTO UserInfo (username, firstname, lastname, phone, address, dob, email) Values ('$value', '$value2', '$value3', '$value4', '$value5', '$value6', '$value7')";
+$sql = "INSERT INTO UserInfo (username, firstname, lastname, phone, address, dob, email, password) Values ('$value', '$value2', '$value3', '$value4', '$value5', '$value6', '$value7', '$value8')";
 
 if (!mysql_query($sql)) {
     die('Error:' .mysql_error());
 }
-
-mysql_close();
 
 
 
@@ -41,10 +40,36 @@ if(isset($_POST['submit'])){
     $first_name = $_POST['firstname'];
     $last_name = $_POST['lastname'];
     $subject = "Form submission";
-    $message = "Thank You for Creating an account";
+    $message = "Thank You for Creating an account! You are Awesome! Feel free to login and explore!";
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
     header('Location: thankyou.php');
+
+/*$user=  mysql_real_escape_string($POST['username']);
+$pass=  mysql_real_escape_string($POST['password']); 
+
+$query=  mysql_query("SELECT * FROM UserInfo WHERE username='".$user."'");
+$numrows=mysql_num_rows($query);
+if($numrows==0)
+{
+    $encrypt_pass=md5($pass);
     
-    }
+    $sql2="INSERT INTO USERINFO(username, password) VALUES ('$user', '$encrypt_pass')";
+
+    $result=mysql_query($sql2);
+if ($result!=1){
+      
+    echo "Failure";
+}
+
+else{
+    echo "Account Successfully Created";
+}
+} else {
+    echo "That username already exists! Please try again with another.";
+} */   
+}
+
+mysql_close();
+
 ?>
