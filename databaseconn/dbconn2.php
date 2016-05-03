@@ -24,9 +24,9 @@ $value4 = $_POST['phone'];
 $value5 = $_POST['address'];
 $value6 = $_POST['dob'];
 $value7 = $_POST['email'];
-$value8 = hash('sha512', $_POST['password']);
+$value8 = $_POST['password'];
 
-$sql = "INSERT INTO UserInfo (username, firstname, lastname, phone, address, dob, email, password) Values ('$value', '$value2', '$value3', '$value4', '$value5', '$value6', '$value7', '$value8')";
+$sql = "INSERT INTO UserInfo (username, firstname, lastname, phone, address, dob, email, password) Values ('$value', '$value2', '$value3', '$value4', '$value5', '$value6', '$value7', sha1('$value8'))";
 
 if (!mysql_query($sql)) {
     die('Error:' .mysql_error());
