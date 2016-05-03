@@ -47,11 +47,18 @@
             </div>
         <br>
             <div class="input-group">
-                <span class="input-group-addon" id="basic-addon6">Email</span>
-                <input type="text" name="email" class="form-control" placeholder="GenericEmail@Website.com" aria-describedby="basic-addon7">
+                <span class="input-group-addon" id="basic-addon7">Email</span>
+                <input type="text" name="email" class="form-control" placeholder="GenericEmail@Website.com" aria-describedby="basic-addon7" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            </div>
+        <br>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon8">Password</span>
+                <input type="password" name="password" class="form-control" placeholder="Six or more characters" aria-describedby="basic-addon8" pattern=".{6,}">
             </div>
         <br>
             <input class="btn btn-primary" type="submit" name="submit" value="Submit">
+        
+            
         </form>
             </div>
         </body>
