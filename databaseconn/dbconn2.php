@@ -1,5 +1,6 @@
 <?php
 
+
 define('DB_NAME', 'mattav');
 define('DB_USER', 'mattav');
 define('DB_PASSWORD', 'matta');
@@ -45,29 +46,7 @@ if(isset($_POST['submit'])){
     mail($to,$subject,$message,$headers);
     header('Location: thankyou.php');
 
-/*$user=  mysql_real_escape_string($POST['username']);
-$pass=  mysql_real_escape_string($POST['password']); 
-
-$query=  mysql_query("SELECT * FROM UserInfo WHERE username='".$user."'");
-$numrows=mysql_num_rows($query);
-if($numrows==0)
-{
-    $encrypt_pass=md5($pass);
-    
-    $sql2="INSERT INTO USERINFO(username, password) VALUES ('$user', '$encrypt_pass')";
-
-    $result=mysql_query($sql2);
-if ($result!=1){
-      
-    echo "Failure";
-}
-
-else{
-    echo "Account Successfully Created";
-}
-} else {
-    echo "That username already exists! Please try again with another.";
-} */   
+ 
 }
 
 mysql_close();
