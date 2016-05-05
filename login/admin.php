@@ -95,6 +95,25 @@ if(isset($_POST['deleteUser']) and is_numeric($_POST['deleteUser'])){
     
 }
 ?>
+            <br>
+            <br>
+            
+            <form action="" method="post">
+            <input type="submit" name="sendmail" value="Send Mail to All Users">
+            </form>
+            
+<?php
+if(isset($_POST['sendmail'])){
+// Send Email
+    $rs = mysql_query('SELECT email FROM UserInfo');
+    
+while(list($email) = mysql_fetch_row($rs))
+{
+  
+  mail($email, 'Hello', 'You are recieving this from WeDeservaAnA');
+}
+}
+?>
             
         </form>
     </div>
