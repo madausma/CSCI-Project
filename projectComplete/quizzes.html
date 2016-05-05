@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+	<title>Quizzes</title>
+	<!--Meta viewport: for iPhone width compatibility-->
+	<meta name = "viewport" content = "width = device-width">
+	<meta name = "viewport" content = "width = 320">
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(http://www.nasa.gov/sites/default/files/images/393950main_Swift_M31_large_UV_full.jpg);
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+<!--Select menu css-->
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+.black   { background-color: #660066; }
+.black select   { color: #000; }
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 20px;
+   height: 29px;
+   padding: 0px;
+   width: 100px;
+}
+
+
+
+</style>
+
+</head>
+<body>
+	<header>
+		<h1>Quizzes</h1>
+		<p>Select a quiz:</p>
+		<div class ="styled-select black rounded">
+			<select name="formal" onchange="javascript:handleSelect(this)">
+				<option value="planetquizzes/mercuryquiz">Mercury</option>
+				<option value="planetquizzes/venusquiz">Venus</option>
+				<option value="planetquizzes/earthquiz">Earth</option>
+				<option value="planetquizzes/marsquiz">Mars</option>
+				<option value="planetquizzes/jupiterquiz">Jupiter</option>
+				<option value="planetquizzes/saturnquiz">Saturn</option>
+				<option value="planetquizzes/uranusquiz">Uranus</option>
+				<option value="planetquizzes/neptunequiz">Neptune</option>
+				<option value="planetquizzes/plutoquiz">Pluto</option>
+			</select>
+		</div>
+
+			<script type="text/javascript">
+			function handleSelect(elm)
+			{
+			window.location = elm.value+".php";
+			}
+</script>
+						<p><small><small>...or, click <a href = "http://cscilab.bc.edu/~madausma/project/homepage/homepage.php">here</a> to go home.</small></small></p>
+	</header>
+</body>
+</html>
