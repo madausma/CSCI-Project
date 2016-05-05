@@ -118,24 +118,6 @@
 	</div>
 </div>
 
-<!--Alert divs (I have not implemented them yet - Marcus)-->
-
-
-<!--<div class="alert alert-info">
-  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  <strong>Info!</strong> Indicates a neutral informative change or action.
-</div>
-
-<div class="alert alert-warning">
-  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  <strong>Warning!</strong> Indicates a warning that might need attention.
-</div>
-
-<div class="alert alert-danger">
-  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
-</div>-->
-
 <!--Login form-->
 <br>
 <br>
@@ -182,7 +164,7 @@
      </div>
      <div class="col-sm-4">
        <h3>SCIENCE</h3>
-       <p>We have lots of science facts n stuff</p>
+       <p>We have lots of science facts and stuff.</p>
      </div>
      <div class="col-sm-4">
        <h3>TAKE OUR QUIZZES</h3>
@@ -222,6 +204,44 @@
 		</section>
 </header>
 <!--Rss Feeds-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 <form>
 	<fieldset>
 		<legend>RSS feeds from NASA!</legend>
@@ -306,15 +326,8 @@
 	<br>
 	<br>
 	<br>
-	<hr>
-	<?php
-	if(isset($_GET['OK'])) {
-		handleform();
-	} else {
-		echo "Talk to the webpage! Fill in the form to participate.";
-	}
-	displayForm();
-?>
+	<br>
+
 </div>
 <br>
 <br>
@@ -327,120 +340,12 @@
 			   Support for 8planets comes from viewers like you.</p>
 	</fieldset>
 
-<!--Scrolling space shuttle-->
-<marquee behavior="scroll" direction="left" scrollamount="20"><img src = "https://pixabay.com/static/uploads/photo/2013/07/13/09/47/space-shuttle-156012_960_720.png" height="40px" ></img></marquee>
-
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
  <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    </div>
+
 </body>
 </html>
-
-<!--Code below for "just for fun" simple server to user communication-->
-<?php
-function handleform(){
-	$name      = isset( $_GET['username'] )   ?   $_GET['username'] : "";
-	$age  = isset( $_GET['age'] )   ?   $_GET['age'] : "";
-	$knowsjava = isset( $_GET['knowsJava'] )  ?   "yes" : "";
-	$knowsphp  = isset( $_GET['knowsPHP'] )   ?   "yes" : "";
-	$knowsc    = isset( $_GET['knowsC'] )     ?   "yes" : "";
-	$activity  = isset( $_GET['activity'] )   ?   $_GET['activity'] : "";
-	$comments  = isset( $_GET['comments'] )   ?   $_GET['comments'] : "";
-	if ($name == "") {
-		echo "You didn't answer 1.";
-		}
-	else if ($age == "") {
-		echo "You didn't enter your age. That's doesn't help me out...";
-		}
-	else echo "<h3>Hello, $name. </h3> I see you are $age. I am a computer so I don't have an age, meaning I will never die. I see you know ";
-	$count = 0;
-	if ($knowsjava == "yes") {
-		echo "Java";
-		$count++;
-	}
-	if ($knowsc == "yes") {
-		if ($count >= 1) echo ", ";
-		echo "C";
-		$count++;
-	}
-	if ($knowsphp == "yes") {
-		$count = $count + 1;
-		if ($count >= 1) echo ", ";
-		echo "and PHP.";
-		$count ++;
-
-	}
-	if ($count == 0 ) {
-		echo "nothing!";
-	}
-	if ($age == "") {
-		echo "";
-		}
-	if ($name == "") {
-		echo "";
-		}
-	echo " <br><br>Here are your comments:<br>";
-	echo $comments;
-
-	echo "<br>";
-	if ($activity == "both") {
-		echo "<br>I also like to do my homework while I run.";
-	} else {
-		echo "<br>Wow, what a coincidence! $activity is also my favorite planet.";
-	}
-	echo "<br>\n";
-}
-?>
-<?php
-function displayForm() {
-?>
-<hr>
-<form method="get">
-	<br>
-	Enter your name in this text field:
-	<input type=text size=10 name="username" value=""/>
-	<br><br>
-	Enter your age:
-	<br>
-	<input type=text size=10 name="age" value=""/>
-
-	<br><br>
-	What programming languages do you know?
-	<br>
-	<input type=checkbox name="knowsJava" id="knowsJava" value="Java" /> Java
-	<br>
-	<input type=checkbox name="knowsC" id="knowsC"    value="C"  /> C
-	<br>
-	<input type=checkbox name="knowsPHP" id="knowsPHP"  value="PHP" /> PHP
-
-
-	<br><br>
-	What is your favorite planet?
-	<br>
-	<select name="activity">
-		<option value="Mercury">Mercury</option>
-		<option value="Venus">Venus</option>
-		<option value="Earth">Earth</option>
-		<option value="Mars">Mars</option>
-		<option value="Jupiter">Jupiter</option>
-		<option value="Uranus">Uranus</option>
-		<option value="Neptune">Neptune</option>
-		<option value="Saturn">Saturn</option>
-	</select>
-
-	<br><br>
-	Add some comments and I'll display them back to you:
-	<br>
-	<textarea rows=6 cols=40 name="comments">
-	</textarea>
-
-	<br><br>
-	Please submit when ready: <input type=submit name="OK" value="OK"/>
-	<br>
-</form>
-<?php
-}
