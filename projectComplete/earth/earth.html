@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<title>Earth</title>
+	<!--Meta viewport: for iPhone width compatibility-->
+	<meta name = "viewport" content = "width = device-width">
+	<meta name = "viewport" content = "width = 320">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+var header = $('body');
+
+var backgrounds = new Array(
+    'url(http://proof.nationalgeographic.com/files/2015/06/6060225_uploadsmember292712yourshot-292712-6060225jpg_vqqxb6qy5ha54j52774rzhgr5izxs2udwatjavjxeftgooyp4jfa_5616x3744.jpg)'
+  , 'url(http://ngm.nationalgeographic.com/wallpaper/img/2013/08/05-chichen-itza-devoted-pyramid_1600.jpg)'
+  , 'url(http://carloscristerna.com/wp-content/uploads/2014/03/IMG_5666.jpg)'
+  , 'url(https://pearlmoonplenty.files.wordpress.com/2014/09/beachrocks.jpg)'
+  , 'url(https://wallpaperscraft.com/image/earth_from_above_planet_surface_2776_3840x2160.jpg)'
+  , 'url(http://proof.nationalgeographic.com/files/2014/10/141006-found-faves-02.jpg)'
+  , 'url(http://ngm.nationalgeographic.com/wallpaper/img/2013/08/03-cboy-serengeti-lion_1600.jpg)'
+  , 'url(http://proof.nationalgeographic.com/files/2015/06/6060225_uploadsmember292712yourshot-292712-6060225jpg_vqqxb6qy5ha54j52774rzhgr5izxs2udwatjavjxeftgooyp4jfa_5616x3744.jpg)'
+  , 'url(http://proof.nationalgeographic.com/files/2014/10/141006-found-faves-04.jpg)'
+  , 'url(http://proof.nationalgeographic.com/files/2014/10/141006-found-faves-03.jpg)'
+  , 'url(http://proof.nationalgeographic.com/files/2014/10/141006-found-faves-09.jpg)'
+);
+
+var current = 0;
+
+function nextBackground() {
+    current++;
+    current = current % backgrounds.length;
+    header.css('background-image', backgrounds[current]);
+}
+setInterval(nextBackground, 6600);
+
+header.css('background-image', backgrounds[0]);
+});
+</script>
+
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(http://www.nasa.gov/sites/default/files/images/393950main_Swift_M31_large_UV_full.jpg);
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+p {
+  margin: 0;
+  font-size: 1.5rem;
+</style>
+
+</head>
+<body>
+
+	<header>
+		<h1>Earth</h1>
+		<p>We're all been here before.</p>
+		<p><small><small>
+						<br>
+						<br>
+						...click <a href = "http://cscilab.bc.edu/~madausma/project/homepage/homepage.php">here</a> to go back to the solar system.</small></small></p>
+	</header>
+</body>
+</html>
