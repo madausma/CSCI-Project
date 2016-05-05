@@ -8,21 +8,31 @@ if(isset($_POST['submit']))
  $pwd=$_POST['password'];
  if($name!=''&&$pwd!='')
  {
-   $query=mysql_query("select * from UserInfo where username='".$name."' and password='".sha1($pwd)."'") or die(mysql_error());
+   $query=mysql_query("select admin from UserInfo where username='".$name."' and password='".sha1($pwd)."' and admin=0") or die(mysql_error());
    $res=mysql_fetch_row($query);
+   $query2=mysql_query("select admin from UserInfo where username='".$name."' and password='".sha1($pwd)."' and admin=1") or die(mysql_error());
+   $res2=mysql_fetch_row($query2);
    if($res)
    {
-    $_SESSION['username']=$name;
+    ($_SESSION['username']=$name)&&($_SESSION['admin']=0);
     header('location:welcome.php');
+    exit();
+   }
+   
+   elseif($res2)
+   {
+    ($_SESSION['username']=$name)&&($_SESSION['admin']=1);
+    header('location:admin.php');
+    exit();
    }
    else
    {
-    echo'You entered username or password is incorrect';
+    echo'You entered an incorrect username or password.';
    }
  }
  else
  {
-  echo'Enter both username and password';
+  echo'Enter both username and password.';
  }
 }
 ?>
@@ -52,7 +62,7 @@ if(isset($_POST['submit']))
          <div class="navbar-collapse collapse">
            <ul class="nav navbar-nav">
              <li><a href="homepage.php">Home</a></li>
-            <li class="active"><a href="about.php">About</a></li>
+            <li><a href="about.php">About</a></li>
              <li><a href="quizzes.html">Quizzes</a></li>
              <li class="dropdown">
  					  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Planets <b class="caret"></b></a>
@@ -76,7 +86,7 @@ if(isset($_POST['submit']))
  </div><!-- /navbar wrapper -->
 <div class='container'>   
     <div class='jumbotron'>
-        <h1>Log Into Your Account! <h1>
+        <h1>Log Into Your Account! </h1>
                 <p> If you need to create an account click <a href='formcreation.php' >HERE</a>.</p>
     </div>
 </div>
@@ -93,7 +103,7 @@ if(isset($_POST['submit']))
             <input type='password' name='password' class="form-control"/>
     </div>
     <br>
-<input type='submit' name='submit' value='Submit'/>
+<input type='submit' name='submit' value='Log In'/>
 
 
 </form>
